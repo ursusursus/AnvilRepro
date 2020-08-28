@@ -12,9 +12,10 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val appComponent = DaggerAppComponent.factory().create(this)
+        val bar = appComponent.bar
 //        val bar = (appComponent as BaseComponent).bar
 //        Log.d("Default", "bar=$bar")
-        Log.d("Default", "dasdasdas")
+        Log.d("Default", "dasdasdas=$bar")
     }
 
     private fun base(baseComponent: BaseComponent) {

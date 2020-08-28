@@ -1,0 +1,2 @@
+C:\Users\ursus\AndroidStudioProjects\MyApplication9\base\src\main\java\sk\foo\base\Bar.kt
+C:\Users\ursus\AndroidStudioProjects\MyApplication9\base\src\main\java\sk\foo\base\di\BaseModule.kt
